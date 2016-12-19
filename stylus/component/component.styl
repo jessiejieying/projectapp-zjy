@@ -1,0 +1,257 @@
+@import "../copy/head.styl"
+
+.header 
+	position relative
+	display flex
+	height 50px 
+	background white
+	line-height 50px
+	padding 0px 15px
+	.head_title_left
+		position absolute
+	.head_title
+		flex 1
+		text-align center
+		font-size 18px
+.article_box
+	background white
+	.article_top
+		display flex
+		padding 15px
+		background #EFEFF4
+		.top_text
+			flex 1
+			.article_top_input
+				height 30px
+				border none
+				outline none
+				width 100%
+				border-radius 5px
+				padding-left 30px
+				
+			.icon_sou
+				width 30px
+				height 30px
+				display inline-block
+				position absolute
+				background url(../../img/fangyuan/content_search_icon@2x.png) no-repeat center
+				background-size 48%
+		.top_right
+			display flex
+			width 85px 
+			height 30px
+			margin-left 30px
+			font-size 14px
+			line-height 30px
+			.icon_add
+				width 20px
+				height 30px
+				display inline-block
+				background url(../../img/fangyuan/content_plus_icon@2x.png) no-repeat left 8px center
+				background-size 40%
+			.text_add
+				flex 1
+	.article_text
+		padding 0px 15px
+		color #6B6B6B
+		.article_text_title
+			display flex
+			line-height 30px
+			.title_circle
+				width 5px
+				height 5px
+				display inline-block
+				background-color #BEE949
+				border-radius 50%
+				margin-top 12.5px
+			.title_msg
+				margin-left 8px
+				font-size 16px
+	.article_text1
+		margin 0px
+		padding 0px
+		li
+			list-style none
+			margin 0px
+			padding 0px	
+			font-size 12px
+			display flex	
+			line-height 25px	
+			.text1_left	
+				flex 1
+				text-align right
+			.text1_right
+				flex 4
+				border-bottom 1px solid #EBEBEE
+				color #B7B7B7
+.bottom_box
+	background-color white
+	color #727272
+	margin-top 10px
+	padding 0px 15px
+	padding-right 0px
+	padding-bottom 10px
+	.message_title
+		display flex
+		line-height 30px
+		.message_title_circle
+			width 5px
+			height 5px
+			display inline-block
+			background-color #49CDE9
+			border-radius 50%
+			margin-top 12.5px
+		.msg_text
+			margin-left 8px
+			font-size 16px
+	.message_title1
+		font-size 14px	
+		padding 0px 30px
+		line-height 25px	
+	.radio_box
+		overflow hidden
+		padding 5px 0px 
+		padding-left 30px
+		border-bottom 1px solid #F0F0F0
+		.radio_block
+			font-size 12px
+			float left
+			margin-left 20px
+			line-height 22px
+			.icon
+				position relative
+				width 10px
+				height 10px
+				display inline-block
+				background url(../../img/fangyuan/content_nor_icon@2x.png) no-repeat center
+				background-size 80%
+			&.selected
+				.icon1
+					position absolute
+					width 10px
+					height 10px
+					display inline-block
+					background url(../../img/fangyuan/content_press_icon@2x.png) no-repeat center
+					background-size 40%
+	.text_box
+		font-size 12px		
+		margin-top 15px
+		padding-right 25px
+		.form-cell
+			display flex	
+			margin-bottom 5px
+			line-height 30px
+			.form-cell_text
+				width 18%
+				
+			.form-cell_input
+				width 36%
+				border 1px solid #E3E3E8
+				outline 0
+				background-color #EFEFF4
+				border-radius 5px
+				padding-left 10px
+			.form-cell_input1
+				width 84%
+				border 1px solid #E3E3E8
+				outline 0
+				background-color #EFEFF4
+				border-radius 5px
+				padding-left 10px	
+			.form-cell_input2
+				width 40%
+				border 1px solid #E3E3E8
+				outline 0
+				background-color #EFEFF4
+				border-radius 5px
+				padding-left 10px
+				margin-left 6%
+			.form-cell_input3
+				width 84%
+				border 1px solid #E3E3E8
+				outline 0
+				background-color #EFEFF4
+				border-radius 5px
+				padding-left 10px	
+				height 80px
+				
+			.form-cell_number
+				width 46%
+				padding-left 10px
+				.icon
+					position relative
+					width 10px
+					height 10px
+					display inline-block
+					background url(../../img/fangyuan/content_nor_icon@2x.png) no-repeat center
+					background-size 80%
+				&.selected
+					.icon1
+						position absolute
+						width 10px
+						height 10px
+						display inline-block
+						background url(../../img/fangyuan/content_press_icon@2x.png) no-repeat center
+						background-size 40%	
+		.add_pic_box
+				width 75px
+				height 75px
+				text-align center
+				background-color #D4D4D9
+				margin-left 10px
+				margin-top 25px
+				.add_pic
+					width 75px
+					height 24px
+					display inline-block
+					background url(../../img/fangyuan/content_plus_icon@2x.png) no-repeat center 
+					background-size 30%	
+					margin-top 20px	
+				.add_pic_box_text
+					text-align center
+		.select_box
+			display none
+			padding-right 12px
+			top -10px
+			position relative
+			z-index 10
+			.select-list
+				margin 0
+				padding 0
+				position absolute
+				z-index 10
+				list-style none
+				margin-left 57px
+				.select-li
+					width 266px
+					height 30px
+					line-height 30px
+					background-color #EFEFF4
+					border 1px solid #E3E3E8
+					border-bottom none
+					padding-left 10px
+					color #A9A9A9
+					&:nth-child(5)
+						border-radius 0 0 5px 5px
+						border-bottom 1px solid #E3E3E8	
+		
+		.releaes_box
+			padding 10px
+			background-color white
+			margin-top 10px
+			.release
+				height 40px
+				width 100%
+				background-color #EA5404
+				text-align center
+				line-height 40px
+				border-radius 5px			
+				color white			
+						
+					
+				
+
+					
+				
+		
+		

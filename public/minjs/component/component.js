@@ -1,0 +1,1 @@
+var $radioList=$(".radio_box .radio_block");$radioList.on("tap",function(){var e=$(this);e.hasClass("selected")||($radioList.removeClass("selected"),e.addClass("selected"))});var $circle=$(".text_box .form-cell .form-cell_number");$circle.on("tap",function(){var e=$(this);e.hasClass("selected")?e.removeClass("selected"):e.addClass("selected")});

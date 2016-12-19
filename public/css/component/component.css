@@ -1,0 +1,299 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+ul
+li
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.header {
+  position: relative;
+  display: flex;
+  height: 50px;
+  background: #fff;
+  line-height: 50px;
+  padding: 0px 15px;
+}
+.header .head_title_left {
+  position: absolute;
+}
+.header .head_title {
+  flex: 1;
+  text-align: center;
+  font-size: 18px;
+}
+.article_box {
+  background: #fff;
+}
+.article_box .article_top {
+  display: flex;
+  padding: 15px;
+  background: #efeff4;
+}
+.article_box .article_top .top_text {
+  flex: 1;
+}
+.article_box .article_top .top_text .article_top_input {
+  height: 30px;
+  border: none;
+  outline: none;
+  width: 100%;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+.article_box .article_top .top_text .icon_sou {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  position: absolute;
+  background: url("../../img/fangyuan/content_search_icon@2x.png") no-repeat center;
+  background-size: 48%;
+}
+.article_box .article_top .top_right {
+  display: flex;
+  width: 85px;
+  height: 30px;
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 30px;
+}
+.article_box .article_top .top_right .icon_add {
+  width: 20px;
+  height: 30px;
+  display: inline-block;
+  background: url("../../img/fangyuan/content_plus_icon@2x.png") no-repeat left 8px center;
+  background-size: 40%;
+}
+.article_box .article_top .top_right .text_add {
+  flex: 1;
+}
+.article_box .article_text {
+  padding: 0px 15px;
+  color: #6b6b6b;
+}
+.article_box .article_text .article_text_title {
+  display: flex;
+  line-height: 30px;
+}
+.article_box .article_text .article_text_title .title_circle {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background-color: #bee949;
+  border-radius: 50%;
+  margin-top: 12.5px;
+}
+.article_box .article_text .article_text_title .title_msg {
+  margin-left: 8px;
+  font-size: 16px;
+}
+.article_box .article_text1 {
+  margin: 0px;
+  padding: 0px;
+}
+.article_box .article_text1 li {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+  display: flex;
+  line-height: 25px;
+}
+.article_box .article_text1 li .text1_left {
+  flex: 1;
+  text-align: right;
+}
+.article_box .article_text1 li .text1_right {
+  flex: 4;
+  border-bottom: 1px solid #ebebee;
+  color: #b7b7b7;
+}
+.bottom_box {
+  background-color: #fff;
+  color: #727272;
+  margin-top: 10px;
+  padding: 0px 15px;
+  padding-right: 0px;
+  padding-bottom: 10px;
+}
+.bottom_box .message_title {
+  display: flex;
+  line-height: 30px;
+}
+.bottom_box .message_title .message_title_circle {
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+  background-color: #49cde9;
+  border-radius: 50%;
+  margin-top: 12.5px;
+}
+.bottom_box .message_title .msg_text {
+  margin-left: 8px;
+  font-size: 16px;
+}
+.bottom_box .message_title1 {
+  font-size: 14px;
+  padding: 0px 30px;
+  line-height: 25px;
+}
+.bottom_box .radio_box {
+  overflow: hidden;
+  padding: 5px 0px;
+  padding-left: 30px;
+  border-bottom: 1px solid #f0f0f0;
+}
+.bottom_box .radio_box .radio_block {
+  font-size: 12px;
+  float: left;
+  margin-left: 20px;
+  line-height: 22px;
+}
+.bottom_box .radio_box .radio_block .icon {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url("../../img/fangyuan/content_nor_icon@2x.png") no-repeat center;
+  background-size: 80%;
+}
+.bottom_box .radio_box .radio_block.selected .icon1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url("../../img/fangyuan/content_press_icon@2x.png") no-repeat center;
+  background-size: 40%;
+}
+.bottom_box .text_box {
+  font-size: 12px;
+  margin-top: 15px;
+  padding-right: 25px;
+}
+.bottom_box .text_box .form-cell {
+  display: flex;
+  margin-bottom: 5px;
+  line-height: 30px;
+}
+.bottom_box .text_box .form-cell .form-cell_text {
+  width: 18%;
+}
+.bottom_box .text_box .form-cell .form-cell_input {
+  width: 36%;
+  border: 1px solid #e3e3e8;
+  outline: 0;
+  background-color: #efeff4;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.bottom_box .text_box .form-cell .form-cell_input1 {
+  width: 84%;
+  border: 1px solid #e3e3e8;
+  outline: 0;
+  background-color: #efeff4;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+.bottom_box .text_box .form-cell .form-cell_input2 {
+  width: 40%;
+  border: 1px solid #e3e3e8;
+  outline: 0;
+  background-color: #efeff4;
+  border-radius: 5px;
+  padding-left: 10px;
+  margin-left: 6%;
+}
+.bottom_box .text_box .form-cell .form-cell_input3 {
+  width: 84%;
+  border: 1px solid #e3e3e8;
+  outline: 0;
+  background-color: #efeff4;
+  border-radius: 5px;
+  padding-left: 10px;
+  height: 80px;
+}
+.bottom_box .text_box .form-cell .form-cell_number {
+  width: 46%;
+  padding-left: 10px;
+}
+.bottom_box .text_box .form-cell .form-cell_number .icon {
+  position: relative;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url("../../img/fangyuan/content_nor_icon@2x.png") no-repeat center;
+  background-size: 80%;
+}
+.bottom_box .text_box .form-cell .form-cell_number.selected .icon1 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: url("../../img/fangyuan/content_press_icon@2x.png") no-repeat center;
+  background-size: 40%;
+}
+.bottom_box .text_box .add_pic_box {
+  width: 75px;
+  height: 75px;
+  text-align: center;
+  background-color: #d4d4d9;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+.bottom_box .text_box .add_pic_box .add_pic {
+  width: 75px;
+  height: 24px;
+  display: inline-block;
+  background: url("../../img/fangyuan/content_plus_icon@2x.png") no-repeat center;
+  background-size: 30%;
+  margin-top: 20px;
+}
+.bottom_box .text_box .add_pic_box .add_pic_box_text {
+  text-align: center;
+}
+.bottom_box .text_box .select_box {
+  display: none;
+  padding-right: 12px;
+  top: -10px;
+  position: relative;
+  z-index: 10;
+}
+.bottom_box .text_box .select_box .select-list {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  z-index: 10;
+  list-style: none;
+  margin-left: 57px;
+}
+.bottom_box .text_box .select_box .select-list .select-li {
+  width: 266px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #efeff4;
+  border: 1px solid #e3e3e8;
+  border-bottom: none;
+  padding-left: 10px;
+  color: #a9a9a9;
+}
+.bottom_box .text_box .select_box .select-list .select-li:nth-child(5) {
+  border-radius: 0 0 5px 5px;
+  border-bottom: 1px solid #e3e3e8;
+}
+.bottom_box .text_box .releaes_box {
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.bottom_box .text_box .releaes_box .release {
+  height: 40px;
+  width: 100%;
+  background-color: #ea5404;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 5px;
+  color: #fff;
+}

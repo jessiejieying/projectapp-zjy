@@ -1,0 +1,264 @@
+@import '../copy/head1.styl'
+
+.header
+  position absolute
+  top 0
+  z-index 5
+  width 100%
+  color #fff
+  background-color transparent
+  .icon-back
+    width 65px
+    padding-left 15px
+    background transparent url("../../img/home_page/nav_icon_down@2x.png") no-repeat left 50px center
+    background-size 12px 6px
+    line-height 50px
+    font-style normal
+  .header_title
+    padding-right 80px
+    font-size 20px
+
+.search_box
+  position absolute
+  top 50px
+  right 15px
+  left 15px
+  z-index 5
+  .search_input
+    height 30px
+    border-radius 3px
+    background-color #f1f1f1
+    text-align center
+    line-height 30px
+    color #999
+    .icon-search 
+      display inline-block
+      width 30px
+      height 30px
+      background url("../../img/home_page/nav_icon_search@2x.png") no-repeat center
+      background-size 16px
+      vertical-align bottom
+
+.slider_box
+  width 100%
+  height 320px
+  overflow hidden
+  .slider_container
+    width 300%
+    transition all .5s
+    transform translateX(0)
+    &:after
+      content ''
+      display block
+      visibility hidden
+      height 0
+      clear both
+.slider_block
+  float left
+  width 375px
+  height 320px
+  
+  &:nth-child(1)
+  	background url("../../img/home_page/banner_img@2x.png") no-repeat center
+  	background-size 100%
+  &:nth-child(2)
+    background url("../../img/home_page/t01e5ad27fe4da72edc.jpg") no-repeat center
+  	background-size 5%
+  &:nth-child(3)
+    background url("../../img/home_page/t01ddcd449a856c9eb0.jpg") no-repeat center
+  	background-size 1%
+.point_box
+  position relative
+  top -30px
+  z-index 5
+  height 16px
+  text-align center
+  .point_block
+    display inline-block
+    width 16px
+    height 16px
+    background url("../../img/home_page/banner_icon_point_nor@2x.png") no-repeat center
+    background-size 10px
+    &.active
+      background url("../../img/home_page/banner_icon_point_press@2x.png") no-repeat center
+      background-size 10px
+
+.query_box
+  display flex
+  width 100%
+  height 50px
+  margin-top 10px
+  background-color white
+  border-bottom 1px solid #EBEBEE
+  .query_block
+    flex 1
+    &.active
+      color #ED7139
+    &.icon-other
+      background url("../../img/home_page/content_icon02_press@2x.png") no-repeat center
+      background-size 10%
+    .text
+      display block
+      text-align center
+      padding-top 8px
+    .icon
+      display block
+      height 15px
+      background url("../../img/home_page/content_icon02_nor@2x.png") no-repeat center
+      background-size 10%
+      &.selected
+	      background url("../../img/home_page/content_icon02_press@2x.png") no-repeat center
+	      background-size 10%
+    
+      
+  .query_price
+    width 50px
+    height 50px
+    background url("../../img/home_page/content_icon01_nor@2x.png") no-repeat center
+    background-size 25px
+    &.active-down
+      background url("../../img/home_page/content_icon01_down@2x.png") no-repeat center
+      background-size 25px
+    &.active-up
+      background url("../../img/home_page/content_icon01_litre@2x.png") no-repeat center
+      background-size 25px
+
+.block_box
+  display flex
+  padding 10px
+  background-color white
+  margin-bottom 10px
+  position relative
+  
+  
+  .img_box
+  	flex 4
+    
+  	background url("../../img/home_page/content_img_list@2x.png") no-repeat left 0px center
+  	background-size 100%
+  	
+  .info_box
+    flex 6
+    padding 5px 15px
+    .info-address
+    	font-size 14px
+    .info-tag_box
+    	font-size 12px
+    	display inline-block
+    	padding 1px 5px
+    	border 1px solid #EB6021
+    	border-radius 5px
+    	color #EB6021
+    .info-price
+    	font-size 12px
+    	width 100%
+    	.yen_box
+    		display inline-block
+    		width 63%
+	    	.yen
+	    		font-style normal
+	    		font-size 14px
+	    		color #EB6021
+	    	.yong
+	    		display inline-block
+	 .info_heart
+	 	position absolute
+	 	z-index 100
+	 	width 20px
+        height 20px
+	 	background blue
+  		
+	    		
+.down-box
+  width 100%
+  overflow hidden
+  .down-box1
+  	width 50%
+  	float left
+  	list-style none
+  	margin 0px
+  	padding 0px
+  	li
+  		height 50px
+  		line-height 50px
+  		padding-left 15px
+  		
+  	.down-box1-other
+  		background-color white
+  .down-box2
+  	width 50%
+  	float left
+  	list-style none
+  	background-color white
+  	margin 0px
+  	padding 0px
+  	
+  	li
+  		height 50px
+  		line-height 50px
+  		margin-left 15px
+  		border-bottom 1px solid #EBEBEE
+  	.quan
+  		color #EB5C18
+
+.down-box
+	display none
+
+
+.bottom_bar
+	width 100%
+	position fixed
+	bottom 0
+	display flex
+	background-color #fff
+	border-top 1px solid #EBEBEE
+	padding 8px 0px 3px
+	.same
+		flex 1
+		height 100%
+		.home_page
+			width 30px
+			height 25px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_press_icon04@2x.png) no-repeat center 0px
+			background-size 80%
+		.appoint
+			width 30px
+			height 25px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_nor_icon03@2x.png) no-repeat center 0px
+			background-size 80%
+		.add
+			width 42px
+			height 42px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_icon05@2x.png) no-repeat center 0px
+			background-size 100%
+		.message
+			width 30px
+			height 25px
+			margin 0 auto	
+			background url(../../img/bottom_bar/bottom_nor_icon02@2x.png) no-repeat center 0px
+			background-size 80%
+		.my
+			width 30px
+			height 25px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_nor_icon01@2x.png) no-repeat center 0px
+			background-size 80%
+		.bottom_text
+			text-align center	
+			color #B4B4B4
+			font-size 12px
+		.shouye
+			color #EA580E
+	
+		
+	    
+			
+		
+		
+		
+		
+		
+		

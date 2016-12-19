@@ -1,0 +1,19 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+}
+.header {
+  height: 50px;
+  background-color: #fff;
+}
+.header .head_title {
+  width: 100%;
+  font-size: 18px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  color: #3e3e3e;
+}

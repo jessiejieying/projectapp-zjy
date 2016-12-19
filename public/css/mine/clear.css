@@ -1,0 +1,122 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+}
+.header {
+  height: 50px;
+  background-color: #fff;
+}
+.header .icon-back {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url("../../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 10px 18px;
+}
+.header .head_title {
+  width: 100%;
+  font-size: 18px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  color: #323232;
+}
+.demand_cell {
+  display: flex;
+  margin-top: 10px;
+  background-color: #fff;
+  height: 50px;
+  padding: 0px 15px;
+}
+.demand_cell .demand_cell_text {
+  flex: 1;
+  line-height: 50px;
+  font-size: 14px;
+}
+.demand_cell .icon_circle {
+  display: inline-block;
+  width: 50px;
+  height: 30px;
+  background-color: #ea5404;
+  border-radius: 25px;
+  margin-top: 10px;
+  position: relation;
+}
+.demand_cell .icon_circle .icon_circle-1 {
+  position: absolute;
+  z-index: 5;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.demand_cell .icon_right {
+  display: inline-block;
+  width: 55px;
+  height: 50px;
+  font-style: normal;
+  line-height: 50px;
+  color: #b7b7b7;
+  font-size: 12px;
+  background: url("../../img/mine/content_list_right_icon@2x.png") no-repeat right 0px center;
+  background-size: 15%;
+}
+.bottom {
+  margin-top: 10px;
+  background-color: #fff;
+  height: 50px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+}
+.clear-box {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(167,167,170,0.5);
+}
+.clear-box .clear {
+  width: 270px;
+  height: 110px;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -135px;
+  top: 50%;
+  margin-top: -80px;
+}
+.clear-box .clear .clear-top {
+  height: 65px;
+  border-bottom: 1px solid #ebebee;
+  text-align: center;
+  line-height: 65px;
+  font-size: 14px;
+}
+.clear-box .clear .clear-bottom {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+}
+.clear-box .clear .clear-bottom .clear1 {
+  flex: 1;
+  display: inline-block;
+  text-align: center;
+  border-right: 1px solid #ebebee;
+}
+.clear-box .clear .clear-bottom .clear2 {
+  flex: 1;
+  display: inline-block;
+  color: #ea5404;
+  text-align: center;
+}

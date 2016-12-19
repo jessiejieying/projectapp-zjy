@@ -1,0 +1,107 @@
+@import "../copy/head.styl"
+.tab_box
+	padding 9px 0px
+	background-color #fff
+.tab_bar
+	display flex
+	width 70%
+	height 30px
+	margin 0 auto
+	padding 0
+	list-style none
+	border-radius 5px
+	border 1px solid #EA5404
+	color #EA5404
+	.tab_bar-cell
+		position relative
+		flex 1
+		text-align center
+		line-height 30px
+		font-size 14px
+		border-right 1px solid #EA5404
+	.active
+		background-color #EA5404
+		color white
+	.need
+		border-right none
+.demand_cells
+	padding 0 15px	
+	.demand_cell
+		width 100%
+		min-height 100px
+		margin-top 15px
+		border-radius 5px
+		box-shadow 0 0 1px 1px #e0e0e0
+		background-color #fff
+		color #3E3E3E		
+		.demand_title
+			display flex
+			padding 10px 10px 
+			border-bottom 1px solid #cecece
+		.demand_info
+			line-height 1.2em
+			font-size 12px
+			padding 0px 10px 
+.bottom_bar
+	width 100%
+	position fixed
+	bottom 0
+	display flex
+	background-color #fff
+	border-top 1px solid #EBEBEE
+	padding 8px 0px 3px
+	.same
+		flex 1
+		height 100%
+
+		.home_page
+			width 30px
+			height 25px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_nor_icon04@2x.png) no-repeat center 0px
+			background-size 80%
+		.appoint
+			width 30px
+			height 25px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_nor_icon03@2x.png) no-repeat center 0px
+			background-size 80%
+		.add
+			width 42px
+			height 42px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_icon05@2x.png) no-repeat center 0px
+			background-size 100%
+		.message
+			width 30px
+			height 25px
+			margin 0 auto	
+			background url(../../img/bottom_bar/bottom_press_icon02@2x.png) no-repeat center 0px
+			background-size 80%
+		.my
+			width 30px
+			height 25px
+			margin 0 auto
+			background url(../../img/bottom_bar/bottom_nor_icon01@2x.png) no-repeat center 0px
+			background-size 80%
+		.message3
+			position relative
+			.message3_text
+				position absolute
+				display inline-block
+				width 18px
+				height 18px
+				background-color #EC461F
+				border-radius 50%
+				color white
+				font-size 10px
+				text-align center
+				line-height 18px
+				left 18px
+				top -5px
+		.bottom_text
+			text-align center	
+			color #B4B4B4
+			font-size 12px
+		.active
+			color #EA580E

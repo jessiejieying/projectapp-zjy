@@ -1,0 +1,124 @@
+body {
+  background: #efefef;
+  margin: 0;
+  padding: 0;
+  font-family: "Microsoft YaHei";
+}
+.header {
+  height: 50px;
+  background-color: #fff;
+}
+.header .icon-back {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background: url("../img/nav_back_icon@2x.png") no-repeat center;
+  background-size: 10px 18px;
+}
+.header .head_title {
+  width: 100%;
+  font-size: 18px;
+  height: 25px;
+  display: inline-block;
+  text-align: center;
+  line-height: 50px;
+  color: #ec692c;
+}
+.form-list-1 {
+  font-size: 14px;
+  color: #bcbcbd;
+  line-height: 30px;
+  margin-left: 15px;
+}
+.form-list-3 {
+  font-size: 14px;
+  color: #bcbcbd;
+  line-height: 30px;
+  margin-left: 15px;
+}
+.form-list-2 {
+  background: #fff;
+  padding: 10px 72px 5px;
+}
+.form-list-2 .circle {
+  width: 100px;
+  height: 75px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f4f4f4;
+  margin-bottom: 10px;
+}
+.form-list-2 .circle .circle-1 {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  margin: 0 auto;
+  line-height: 65px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  background: #878787;
+}
+.form-list-2 .form-cell-input {
+  padding: 0px 10px;
+  width: 100%;
+  height: 30px;
+  color: #f00;
+  background: #efeff4;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: #c0c0c0;
+}
+.form-list-4 {
+  background: #fff;
+  padding: 10px 0px 10px;
+}
+.form-list-4 .form-cell {
+  padding: 0px 72px;
+}
+.form-list-4 .form-cell .form-cell-input {
+  padding: 0px 10px;
+  width: 100%;
+  height: 30px;
+  color: #f00;
+  background: #efeff4;
+  border: none;
+  border-radius: 5px;
+  margin-bottom: 5px;
+  outline: none;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  color: #c0c0c0;
+}
+.form-list-4 .form-list-2-bottom {
+  display: flex;
+  padding: 20px 10px 10px;
+}
+.form-list-4 .form-list-2-bottom .bottom_span {
+  flex: 3;
+  display: inline-block;
+  border-radius: 5px;
+  line-height: 65px;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  background: #878787;
+  margin-right: 7%;
+}
+.form-list-4 .form-list-2-bottom .other {
+  margin-right: 0;
+}
+.button {
+  background-color: #ea5404;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  margin: 40px 10px 0px;
+}
