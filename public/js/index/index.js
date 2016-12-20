@@ -74,13 +74,13 @@ $queyrBlock.on('tap', function(){
 $('.query_price').on('tap', function(){
     var $self = $(this);
     if($self.hasClass('active-down')){
-        console.log('up');
+        //console.log('up');
         $self.removeClass('active-down').addClass('active-up');
     }else if($self.hasClass('active-up')){
-        console.log('normal');
+        //console.log('normal');
         $self.removeClass('active-up');
     }else{
-        console.log('down');
+        //console.log('down');
         $self.addClass('active-down');
     }
 })

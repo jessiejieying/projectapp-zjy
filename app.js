@@ -26,8 +26,8 @@ var stylus = path.join(__dirname,'stylus');
 app.use('/stylus',express.static(path.join(__dirname,'stylus')));
 
 //监听端口9999，用来启动服务
-app.listen(10001,function(){
-	console.log('server run at port 10001');
+app.listen(16906,function(){
+	console.log('server run at port 16906');
 });
 
 

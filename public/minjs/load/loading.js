@@ -1,1 +1,1 @@
-function jumurl(){window.location.href="./mine/no.html"}setTimeout(jumurl,5e3);
+function jumurl(){window.location.href="./mine/no.html"}setTimeout(jumurl,2e3);

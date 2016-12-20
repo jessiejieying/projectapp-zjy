@@ -81,8 +81,37 @@ body {
   background: url("../img/nav_back_xia.png") no-repeat 0px center;
   background-size: 13.5px 7.5px;
 }
+.form-list .form-cell .icon-identity.identity-active {
+  background: url("../img/nav_back_shang.png") no-repeat 0px center;
+  background-size: 13.5px 7.5px;
+}
+.form-list .form-cell .hidden_box {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 65px;
+  color: #fff;
+  background: #a3a3a3;
+  border-radius: 5px;
+  position: absolute;
+  top: 30px;
+  right: 0px;
+  display: none;
+}
+.form-list .form-cell .hidden_box li {
+  width: 65px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  text-align: center;
+  border-bottom: 1px solid #c5c5c5;
+}
 .form-list .identity {
   border-bottom: none;
+  position: relative;
+  background: url("../img/content_position_icon@2x.png") no-repeat 0px center;
+  background-size: 20px 20px;
+  padding-left: 30px;
 }
 .button {
   background-color: #c7c7c7;

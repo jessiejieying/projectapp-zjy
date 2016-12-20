@@ -1,0 +1,1 @@
+var $code=$(".form-list .form-cell .form-cell-code");$code.on("tap",function(){$code.css("background","#C7C7C7");var e=60;setTime=setInterval(function(){return e<=0?(clearInterval(setTime),$code.css("background","#EA5404"),void $code.text("获取验证码")):(e--,void $code.text(e+"s后重新获取"))},1e3)});
