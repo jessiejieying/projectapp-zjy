@@ -207,13 +207,18 @@ body {
 .block_box .info_box .info-price .yen_box .yong {
   display: inline-block;
 }
-.block_box .info_heart {
-  position: absolute;
-  z-index: 100;
-  background: #00f;
-}
-.block_box .info_heart width 20px {
+.info_heart {
+  width: 20px;
   height: 20px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: url("../../img/home_page/collect_icon_nor@2x.png") no-repeat left 0px center;
+  background-size: 80%;
+}
+.info_heart.press {
+  background: url("../../img/home_page/collect_icon_press@2x.png") no-repeat left 0px center;
+  background-size: 80%;
 }
 .down-box {
   width: 100%;
@@ -254,10 +259,19 @@ body {
 .down-box {
   display: none;
 }
+.back {
+  width: 50px;
+  height: 50px;
+  background: url("../../img/home_page/content_btn_back@2x.png") no-repeat center;
+}
+background-size 50% {
+  position: fixed;
+  bottom: 50px;
+}
 .bottom_bar {
   width: 100%;
   position: fixed;
-  bottom: 0;
+  bottom: 0px;
   display: flex;
   background-color: #fff;
   border-top: 1px solid #ebebee;

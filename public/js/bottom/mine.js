@@ -14,6 +14,10 @@ $appoint.on('tap',function(){
 	window.location.href = '../appointment/appointment.html';
 });
 
+$add.on('tap',function(){
+	window.location.href = '../component/addafter.html';
+});
+
 $message.on('tap',function(){
 	window.location.href = '../msg/msg_message.html';
 });

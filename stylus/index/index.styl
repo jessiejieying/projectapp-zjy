@@ -123,6 +123,7 @@
       background url("../../img/home_page/content_icon01_litre@2x.png") no-repeat center
       background-size 25px
 
+
 .block_box
   display flex
   padding 10px
@@ -161,12 +162,22 @@
 	    		color #EB6021
 	    	.yong
 	    		display inline-block
-	 .info_heart
-	 	position absolute
-	 	z-index 100
-	 	width 20px
-        height 20px
-	 	background blue
+	.info_heart
+	  width 20px
+	  height 20px
+	  position absolute
+	  top 20px
+	  right 20px
+	  
+	  background url("../../img/home_page/collect_icon_nor@2x.png") no-repeat left 0px center
+	  background-size 80%
+	  &.press
+	  	  background url("../../img/home_page/collect_icon_press@2x.png") no-repeat left 0px center
+	  	  background-size 80%
+  		
+	
+  	
+
   		
 	    		
 .down-box
@@ -204,11 +215,18 @@
 .down-box
 	display none
 
+.back
+  	width 50px
+  	height 50px
+  	background url("../../img/home_page/content_btn_back@2x.png") no-repeat center
+	background-size 50%
+	position fixed
+	bottom 50px
 
 .bottom_bar
 	width 100%
 	position fixed
-	bottom 0
+	bottom 0px
 	display flex
 	background-color #fff
 	border-top 1px solid #EBEBEE
@@ -252,6 +270,9 @@
 			font-size 12px
 		.shouye
 			color #EA580E
+
+    
+	
 	
 		
 	    

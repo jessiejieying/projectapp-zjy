@@ -87,3 +87,13 @@ $('.query_price').on('tap', function(){
 
 
 
+var $heartlist = $('.block_box .info_box .info_heart');
+
+$heartlist.on('tap', function(){
+    if($(this).hasClass('press')){
+        $(this).removeClass('press');
+    }else{
+        $heartlist.removeClass('press');
+        $(this).addClass('press');
+    }
+});
