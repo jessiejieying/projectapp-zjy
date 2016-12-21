@@ -22,7 +22,10 @@ body {
   line-height: 50px;
   text-align: center;
 }
-.demand_cell {
+.demand_cells {
+  overflow: hidden;
+}
+.demand_cells .demand_cell {
   display: flex;
   margin-top: 10px;
   padding: 10px 0px;
@@ -30,22 +33,22 @@ body {
   position: relative;
   height: 95px;
 }
-.demand_cell .icon-left {
+.demand_cells .demand_cell .icon-left {
   flex: 3;
   display: inline-block;
   height: 70px;
   background: url("../../img/appointment/content_img@2x.png") no-repeat center;
   background-size: 80%;
 }
-.demand_cell .text-right {
+.demand_cells .demand_cell .text-right {
   flex: 6;
   position: relative;
 }
-.demand_cell .text-right .title {
+.demand_cells .demand_cell .text-right .title {
   font-size: 14px;
   margin-bottom: 5px;
 }
-.demand_cell .text-right .title .tilte2 {
+.demand_cells .demand_cell .text-right .title .tilte2 {
   position: absolute;
   right: 10px;
   background: #f00;
@@ -53,20 +56,20 @@ body {
   background: url("../../img/appointment/content_icon@2x.png") no-repeat left 0px center;
   background-size: 12%;
 }
-.demand_cell .text-right .demand_info {
+.demand_cells .demand_cell .text-right .demand_info {
   text-indent: 1.2em;
   font-size: 14px;
   line-height: 18px;
   padding: 0px;
   margin: 0px;
 }
-.demand_cell .text-right .text-bottom {
+.demand_cells .demand_cell .text-right .text-bottom {
   color: #ff8c0a;
   font-size: 12px;
   padding: 0px;
   margin: 0px;
 }
-.demand_cell .text-right .button {
+.demand_cells .demand_cell .text-right .button {
   width: 55px;
   height: 23px;
   line-height: 23px;
@@ -78,7 +81,7 @@ body {
   position: absolute;
   right: 10px;
 }
-.demand_cell .text-right .button1 {
+.demand_cells .demand_cell .text-right .button1 {
   width: 100px;
   height: 23px;
   line-height: 23px;
@@ -88,13 +91,13 @@ body {
   position: absolute;
   right: 30px;
 }
-.demand_cell .text-right .hidden-box {
+.demand_cells .demand_cell .hidden-box {
   width: 65px;
   height: 115px;
   background: #ff3b30;
   position: absolute;
-  left: 250px;
-  top: -10px;
+  left: 0px;
+  top: 0px;
 }
 .bottom_bar {
   width: 100%;
