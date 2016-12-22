@@ -25,8 +25,15 @@ var $text2 = $('.success_text2');
 
 $release.on('tap', function(){	
 	$success.show();
+	topSlide = setInterval(function(){
+	var wintop = $(window).scrollTop();
+		if(wintop == 0){
+			clearInterval(topSlide);
+		}
+		$(window).scrollTop(wintop-10)
+	},10)
 	$text2.on('tap', function(){	
-		$success.hide();
+		window.location.href = '../index/index.html';
 	
 	});
 });
@@ -35,3 +42,5 @@ var $title = $('.head_title_left');
 $title.on('tap', function(){
 	window.location.href = './addafter.html';
 });
+
+

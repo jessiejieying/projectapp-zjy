@@ -28,6 +28,7 @@ $list.on('tap', function(){
     //console.log(index);
     //console.log($self.text());
 	$input.val($self.text());
+	
 });
  
 //$input.on('blur', function(){
@@ -55,6 +56,11 @@ $code.on('tap',function(){
         $code.text(time +"s后重新获取");
     },1000);
 });
+
+
+var $button = $('.button');
+
+
 
 
 

@@ -23,5 +23,10 @@ $message.on('tap',function(){
 });
 
 $my.on('tap',function(){
-	window.location.href = './no.html';
+	var session = sessionStorage.getItem("username");
+	if(session == null){
+		window.location.href = './no.html';
+	}else{
+		window.location.href = './after.html';
+	}
 });

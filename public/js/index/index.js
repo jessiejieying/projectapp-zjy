@@ -97,3 +97,14 @@ $heartlist.on('tap', function(){
         $(this).addClass('press');
     }
 });
+
+var $back = $('.back');
+$back.on('tap', function(){	
+	topSlide = setInterval(function(){
+	var wintop = $(window).scrollTop();
+		if(wintop == 0){
+			clearInterval(topSlide);
+		}
+		$(window).scrollTop(wintop-10)
+	},10)
+});
