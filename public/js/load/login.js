@@ -18,14 +18,22 @@ $buttom2.on('tap', function(){
 	window.location.href = './forgetpassword.html';
 });
 
+
+flag = false;
 $text2.on('blur', function(){
 	console.log($text1.value);
 	console.log($text2.value);
 	if($text1.value != "" && $text2.value != ""){
 		$button.css("background","#EA5404");
-		$button.on('tap', function(){
-			window.location.href = './mine/after.html';
-		});
+		flag = true;
+		
 	}	
 });
 
+$button.on('tap', function(){
+	if(flag){
+		window.location.href = './mine/after.html';
+		sessionStorage.setItem("username",$text1.value);
+	}
+	
+});
