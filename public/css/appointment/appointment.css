@@ -98,6 +98,9 @@ body {
   position: absolute;
   left: 0px;
   top: 0px;
+  color: #fff;
+  text-align: center;
+  line-height: 115px;
 }
 .bottom_bar {
   width: 100%;
