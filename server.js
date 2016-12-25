@@ -3,7 +3,7 @@ var path = require('path');
 //引入express依赖模块，用来启动静态服务器
 var express = require('express');
 //引入转发请求插件
-//var proxy = require('http-proxy-middleware');
+var proxy = require('http-proxy-middleware');
 
 //实例express
 var app = express();
@@ -34,12 +34,17 @@ app.listen(16906,function(){
 //定义通过、api访问的请求，转发到指定路径
 //http://127.0.0.1:9888/api/index
 //替换为http://122.10.30.153:9901/index
-//app.use('/api',proxy({
-//	target：'http://122.10.30.153:9901',
-//	pathRewrite:{
-//		'^/api':'/'
-//	}
-//}));
+app.use('/api',proxy({
+	target:'http://guanjp.com:9805',
+	changeOrigin:true,
+	ws:true,
+	cookieRewrite:true,
+	pathRewrite:{
+		'^/api':'/'
+	}
+}));
+
+
 
 //模块导出
 module.exports = app;
