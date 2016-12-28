@@ -34,7 +34,7 @@ app.listen(16906,function(){
 //定义通过、api访问的请求，转发到指定路径
 //http://127.0.0.1:9888/api/index
 //替换为http://122.10.30.153:9901/index
-app.use('/api',proxy({
+/*app.use('/api',proxy({
 	target:'http://guanjp.com:9805',
 	changeOrigin:true,
 	ws:true,
@@ -42,7 +42,7 @@ app.use('/api',proxy({
 	pathRewrite:{
 		'^/api':'/'
 	}
-}));
+}));*/
 
 
 
@@ -50,7 +50,7 @@ app.use('/api',proxy({
 module.exports = app;
 
 
-var sha1 = require("sha1");
+/*var sha1 = require("sha1");
     //定义验证接口
     app.use('/wexin', function(req, res){
         //获取get传递数据
@@ -73,4 +73,4 @@ var sha1 = require("sha1");
         }else{
             res.send("验证失败").end();
         }
-    });
+    });*/
